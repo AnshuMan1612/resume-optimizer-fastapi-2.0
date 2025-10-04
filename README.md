@@ -1,6 +1,11 @@
 # ATS Resume Optimizer Pro ⚙️
 
-<img width="1373" height="772" alt="ATS Resume Optimizer Screenshot" src="https://your-screenshot-url-here" />
+
+<img width="1910" height="877" alt="image" src="https://github.com/user-attachments/assets/4edc14b5-13f7-4e94-bb27-549de45ef3be" />
+<img width="1890" height="888" alt="image" src="https://github.com/user-attachments/assets/425c7770-da79-459d-832e-86969005fbb2" />
+<img width="1894" height="881" alt="image" src="https://github.com/user-attachments/assets/8a26a295-cc8a-4431-8a8b-6c8d0381371a" />
+<img width="1888" height="883" alt="image" src="https://github.com/user-attachments/assets/668680ec-d095-4898-a41e-33464f74e048" />
+
 
 ---
 
