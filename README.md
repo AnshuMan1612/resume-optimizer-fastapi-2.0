@@ -1,74 +1,96 @@
-🚀 ATS Resume Optimizer Pro
-ATS Resume Optimizer Pro is an advanced, AI-powered web app built with Python (FastAPI) for creating, analyzing, and optimizing resumes specifically for Applicant Tracking Systems (ATS) and modern recruiting. It features deep job matching, smart keyword detection, multiple export formats, and customizable professional templates.
+# ATS Resume Optimizer Pro ⚙️
 
-✨ Features
-🤖 AI-Powered Resume & Job Analysis
+<img width="1373" height="772" alt="ATS Resume Optimizer Screenshot" src="https://your-screenshot-url-here" />
 
-Deep skill detection, industry insights, and Perplexity AI integration for job matching & ATS feedback.
+---
 
-Instant keyword, experience, and education analysis for maximum job compatibility.
+## Overview ✨
 
-📄 Smart Resume Generation
+This repository contains a next-generation resume analysis and generation platform designed for the modern job seeker. The application leverages Python (FastAPI), AI, and customizable templates to help users analyze and optimize their resumes for Applicant Tracking Systems (ATS) and specific job descriptions.
 
-Create modern, classic, or tech-focused resumes.
+---
 
-Instant HTML/PDF/Text export with customizable layouts.
+## Problem Statement ❓
 
-Bullet point optimization & quantified achievements.
+In today’s competitive job market, many qualified applicants fail to pass initial resume screenings due to missing ATS keywords and formatting mismatches. This project aims to:
 
-🕵️ Smart Parsing & Extraction
+- 🤖 **Analyze** resumes for ATS compatibility and job-specific relevance
+- 🔍 **Identify** missing skills, keywords, and experience required by job postings
+- 📝 **Generate** new, optimized resumes in multiple layouts and formats
 
-Handles PDF or pasted resume/job posts, extracting all skills, qualifications, and experience.
+---
 
-🎨 Customizable Templates
+## Dataset 📂
 
-Choose from “ATS Modern,” “Tech Focused,” or “Classic Professional” layouts.
+- **Source:** User-uploaded resumes and job descriptions (PDF, text, or URL)
+- **Records:** Each session uses unique resume-job pairs 👤
+- **Features:**  
+  - Automated extraction: Skills, Experience, Education, Companies, Keywords 📈
+  - ML/AI comparison for best-in-class job fit recommendations
 
-🔗 Integrations
+Each analysis run evaluates your resume against a provided job description using AI.
 
-Perplexity AI job scraping & resume enhancement (optional, API key needed).
+---
 
-Modular code: every feature is independently upgradeable.
+## Key Features & Metrics 🚦
 
-🛡️ Secure & Robust
+- **ATS Compatibility Score:** Measures resume vs. job keyword and formatting match 🏆
+- **Skill Gap Analysis:** Identifies missing or weak skill sections 🔍
+- **Custom Resume Generation:**  
+  - Choose Modern, Tech-Focused, or Classic templates 💼
+  - Auto-generated bullet points and quantified achievements for stronger impact 📝
+- **AI & Job Parsing:**  
+  - Advanced AI (Perplexity API support) for extracting requirements directly from job links 🤖
+- **Export Options:** Download as PDF, HTML, or TXT 📥
 
-Async uploads, PDF/text safety, and developer-friendly error handling.
+---
 
-🛠️ Installation
-bash
-git clone https://github.com/your-username/ats-resume-optimizer.git
-cd ats-resume-optimizer
-pip install -r requirements.txt
-If using Perplexity AI features, add your API key to the environment or config file.
+## Technology & Tools 🛠️
 
-🚦 Usage
-Run the server:
+- FastAPI (Backend API Framework)
+- Python 3.8+ 🐍
+- Jinja2, ReportLab, WeasyPrint (Document Generation)
+- Perplexity AI API (optional, for advanced job analysis)
+- pandas, numpy, PDF parsing & text extraction libraries
 
-bash
-uvicorn main:app --reload
-Open the app:
-Go to http://localhost:8000 in your browser.
+---
 
-Upload your resume & job description:
-Analyze your resume against any job post for keyword and skill matching.
+## Project Workflow 🚀
 
-Optimize and export:
-Download your new ATS-optimized resume as PDF, HTML, or TXT.
+1. Resume Upload & Job Selection 📤
+2. Text Extraction & Smart Parsing 📝
+3. ATS & Skill Analysis 🧪
+4. Resume Generation & Export 🖨️
 
-📁 Project Structure
-text
-main.py                 # FastAPI backend & routers
-resume_generator.py     # Professional PDF generator
-html_resume_generator.py# Modern HTML/CSS resume builder
-ats_resume_layouts.py   # All resume templates
-pdf_extractor.py        # PDF text extraction
-job_scraper.py          # Job description fetching
-enhanced_analyzer.py    # Advanced AI matching algorithms
-simple_analyzer.py      # Simplified analysis (legacy support)
-perplexity_analyzer.py  # Perplexity AI API features
-ai_resume_generator.py  # Optional: AI resume writing
-requirements.txt        # Dependencies
-⚠️ Requirements
-Python 3.8+
+---
 
-See requirements.txt for all must-have libraries.
+## Insights & Recommendations 💡
+
+- Maximize interview chances by tailoring every resume to the job description
+- Use skill/keyword suggestions to bridge common ATS gaps
+- Export resumes in recruiter-friendly formats for different industries
+
+---
+
+## Getting Started 🏁
+
+1. Download or clone this repository 💻
+2. `pip install -r requirements.txt` to set up dependencies
+3. Run with `uvicorn main:app --reload`
+4. Open your browser to `http://localhost:8000`
+5. Upload your resume and a job description, then optimize and export!
+
+---
+
+## Author 🙋
+
+- **Your Name Here**  
+  (Replace with your info! Link to LinkedIn/GitHub as desired.)
+
+---
+
+## License 📄
+
+MIT License
+
+> **Questions or collaboration? Open an issue or connect via my profile.** 🤝
